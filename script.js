@@ -18,7 +18,7 @@ setInterval(function(){
     }else{
        h5timer.innerHTML= grow;
     }
-},33) 
+},30) 
 },
 });
 tl.to('.line h2',{

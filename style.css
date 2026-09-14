@@ -100,3 +100,31 @@ opacity: 0;
     background-color: #151515;
 
 }
+
+#page1 #nav{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.3vw 5.5vw;
+}
+#page1 #nav img {
+    width: 100px;
+    height: auto;
+}
+
+#nav-part2{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin-left: 900px;
+}
+
+#nav-part2 h4{
+    font-size: 1vw;
+   font-weight: 500; 
+}
+
+.
