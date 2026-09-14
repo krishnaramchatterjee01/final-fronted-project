@@ -114,7 +114,7 @@ opacity: 0;
 }
 
 #nav-part2{
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     align-items: center;
     justify-content: center;
