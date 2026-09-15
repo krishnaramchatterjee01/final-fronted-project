@@ -143,12 +143,22 @@ opacity: 0;
     margin-left: 22%;
     height: fit-content;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+
 }
 .hero:nth-child(2){
     margin-top: 2vw;
 }
 
 .hero h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 7vw;
+    line-height: 7vw;
+}
+
+.hero h2, .hero h3{
     text-transform: uppercase;
     font-weight: 500;
     font-size: 7vw;
