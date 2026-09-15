@@ -32,20 +32,30 @@ function loadAnimation() {
     tl.to("#loader", {
         opacity: 0,
         duration: 0.2,
-        delay: 4
+        delay: 2
     });
 
     tl.from("#page1", {
         delay: 0.2,
         y: 1600,
         opacity: 0,
-        duration: 0.5,
+        duration: 0.6,
         ease: "power4.out"
     });
 
     tl.to("#loader", {
         display: "none"
     });
+    tl.to("#loder",{
+        display: "none",
+    });
+    tl.from("#nav",{
+        opacity:0
+    })
+    tl.from(".hero h1",{
+        y:120,
+        stagger: 0.2
+    })
 }
 
 loadAnimation();
@@ -61,3 +71,4 @@ Shery.makeMagnet("#nav-part2 h4" /* Element to target.*/, {
 });
 }
 cursorAnimation();
+
