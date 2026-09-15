@@ -11,7 +11,16 @@ html, body {
     height: 100%;
     width: 100%;
 } 
+#crsr{
+    height: 2.3vw;
+    width: 2.3vw;
+    border-radius: 50%;
+    /* background-color: white; */
+    border: 1px solid #ffff;
+    position: fixed;
+    z-index: 9999;
 
+}
 #loader{
     height:100%;
     width: 100%;

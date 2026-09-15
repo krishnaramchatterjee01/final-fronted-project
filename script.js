@@ -44,5 +44,5 @@ tl.to("#loader",{
     display:"none"
 })
 }
-
 loadAnimation ()
+
