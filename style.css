@@ -175,3 +175,23 @@ font-weight: 500;
 color:transparent;
 border-bottom: 0.5vw solid #ffffff00;
 }
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #151515;
+}
+
+#video-container {
+    height: 80vh;
+    width: 50vw;
+    position: relative;
+    left: 30%;
+}
+
+#video-container video {
+    color: aqua;
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+}
