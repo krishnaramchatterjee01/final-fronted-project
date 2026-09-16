@@ -11,6 +11,9 @@ html, body {
     height: 100%;
     width: 100%;
 } 
+body{
+    overflow-x: hidden;
+}
 #crsr{
     height: 2vw;
     width: 2vw;
@@ -130,7 +133,7 @@ opacity: 0;
     align-items: center;
     justify-content: center;
     gap: 5vw;
-    margin-left: 900px;
+    margin-left: 64vw;
 }
 #nav-part2 h4{
     font-size: 1vw;
@@ -271,6 +274,31 @@ border-bottom: 0.5vw solid #ffffff00;
 #page4-flex p{
 font-size: 1.1vw;
 width: 20%;
-margin: 1vw;
+margin-left: 1vw;
+}
+#page4-blueDiv{
+    background-color: #3F7DF4;
+    width: 35vw;
+    padding: 1vw;
+     margin-top: -35vh; 
+    margin-left: 50vw;
+    position: relative;
+     
+  
+}
+.blur-div-elem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2vw 0;
+    border-bottom: 2px solid #fff;
+}
+.blur-div-elem h4{
+    font-size: 1.2vw;
+    font-weight: 500;
 }
 
+.blur-div-elem p{
+    width: 50%;
+    font-size: 0.8vw;
+}
