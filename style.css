@@ -292,6 +292,7 @@ margin-left: 1vw;
     justify-content: space-between;
     padding: 2vw 0;
     border-bottom: 2px solid #fff;
+
 }
 .blur-div-elem h4{
     font-size: 1.2vw;
@@ -301,4 +302,15 @@ margin-left: 1vw;
 .blur-div-elem p{
     width: 50%;
     font-size: 0.8vw;
+}
+ .underline {
+    height: 3px;
+    width: 50%;
+    background-color: white;
+    margin-top: 3vw; 
+    margin-left: 25vw;
+ }
+#page5{
+    min-height: 100vh;
+    width: 100%;
 }
