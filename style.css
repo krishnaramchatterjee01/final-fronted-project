@@ -186,9 +186,7 @@ border-bottom: 0.5vw solid #ffffff00;
     padding-top: 20vh;
     position: relative;
     background-color: #151515;
-
 }
-
 #video-container {
     height: 70vh;
     width: 70vw;
@@ -226,13 +224,13 @@ border-bottom: 0.5vw solid #ffffff00;
 #video-cursor i{
     font-size: 2vw;
     align-items: center;
-    margin-left: 35px;
+    margin-left: 2.3vw;
 }
 
 #page3{
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(61, 61,61);
+    background-color: rgb(35, 33, 33);
     position: relative;
 }
 
@@ -369,4 +367,61 @@ transform: translateX(calc(-100% - 20%));
     font-style: italic;
     font-family: "silk serif";
 color: transparent;
+}
+
+#footer{
+    height: 80vw;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding-left: 28vw;
+    padding-right: 2vw;
+}
+#footer h1{
+    font-size: 7vw;
+    /* width: 60vw; */
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    /* background-color: blue; */
+}
+#footer h1::before{
+    content: "04";
+    position: absolute;
+    font-size: 2.5vw;
+    font-weight: 100;
+    font-family:"silk serif";
+    left: -10%;
+    top: 8%;
+}
+.underline2{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin: 2vw 0;
+}
+
+#footer-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 15vw;
+    padding-top:5vw;
+    margin-bottom: 3vw;
+}
+#footer-div h6{
+    font-size: 1vw;
+    margin-bottom: 1.5vw;
+}
+#footer-div h5{
+    font-size: 1.4vw;
+    margin: 0.2vh 0;
+    font-weight: 500;
+}
+.box{
+    width: 20%;
+}
+#footer>h5{
+font-weight: 500;
+font-size: 1vw;
 }
